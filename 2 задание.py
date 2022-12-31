@@ -181,7 +181,7 @@ class Report:
         for index, _ in enumerate(self.stats5):
             ws2['E' + str(index + 2)].number_format = '0.00%'
 
-        thin = Side(border_style='thin', color='00000000')
+        th = Side(border_style='thin', color='00000000')
 
         for row in range(len(data)):
             for col in 'ABDE':
